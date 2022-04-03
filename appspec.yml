@@ -5,6 +5,6 @@ files:
     destination: /project
 hooks:
   ApplicationStart:
-    - location: script/start.sh
+    - location: scripts/start.sh
       timeout: 300
       runas: root
